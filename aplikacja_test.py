@@ -5,8 +5,11 @@ import aplikacja
 
 class Test_sum_of_squares_diffrence(unittest.TestCase):
 
-    def test_sum_of_squares_(self):
+    def test_sum_squares(self):
         self.assertEqual(aplikacja.Sum_of_squares_diffrence.sum_squares(self), 385)
+
+    def test_square_sum(self):
+        self.assertEqual(aplikacja.Sum_of_squres_diffrence.square_sum(self), 3025)
 
 
 
