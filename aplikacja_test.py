@@ -1,9 +1,7 @@
 __author__ = 'Konrad'
-__author__ = 'Konrad'
 
 import unittest
-
-
+import aplikacja
 
 class Test_sum_of_squares_diffrence(unittest.TestCase):
 
