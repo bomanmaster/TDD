@@ -46,3 +46,7 @@ class Sum_of_squares_diffrence:
             sum += i
 
         return pow(sum,2)
+
+    def subtract(self,s1,s2):
+
+        return s2 - s1
