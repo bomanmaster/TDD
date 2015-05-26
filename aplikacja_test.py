@@ -11,6 +11,9 @@ class Test_sum_of_squares_diffrence(unittest.TestCase):
     def test_square_sum(self):
         self.assertEqual(aplikacja.Sum_of_squares_diffrence.square_sum(self), 3025)
 
+    def test_subtract(self):
+        self.assertEqual(aplikacja.Sum_of_squres_diffrence.subtract(self,385,3025), 2640)    
+
 
 
 suite = unittest.TestLoader().loadTestsFromTestCase(Test_sum_of_squares_diffrence)
