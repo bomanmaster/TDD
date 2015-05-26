@@ -27,6 +27,7 @@ class Sum_of_squares_diffrence:
 
         return sum
 
+
 # Adds first 10 natural numbers and then squares the sum
 #
 # sum - sum of first 10 natural numbers
