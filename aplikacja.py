@@ -26,3 +26,22 @@ class Sum_of_squares_diffrence:
             sum += pow_sum
 
         return sum
+
+# Adds first 10 natural numbers and then squares the sum
+#
+# sum - sum of first 10 natural numbers
+#
+#   example
+#
+#   squared sum of 2 first natural numbers(1,2)
+#   # => 9
+#
+# Returns the result of squared sum of first 10 natural numbers
+
+    def square_sum(self):
+
+        sum = 0
+        for i in range(1,11,1):
+            sum += i
+
+        return pow(sum,2)

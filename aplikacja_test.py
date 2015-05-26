@@ -9,7 +9,7 @@ class Test_sum_of_squares_diffrence(unittest.TestCase):
         self.assertEqual(aplikacja.Sum_of_squares_diffrence.sum_squares(self), 385)
 
     def test_square_sum(self):
-        self.assertEqual(aplikacja.Sum_of_squres_diffrence.square_sum(self), 3025)
+        self.assertEqual(aplikacja.Sum_of_squares_diffrence.square_sum(self), 3025)
 
 
 
