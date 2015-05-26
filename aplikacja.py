@@ -47,6 +47,28 @@ class Sum_of_squares_diffrence:
 
         return pow(sum,2)
 
+# Subtracts result of sum_squares from result of square_sum
+#
+# s1 - result of sum_squares
+# s2 - result of square_sum
+#   example
+#
+#   sum_squares = 5, square_sum = 9
+#   # => 4
+#
+# Returns the difference of square_sum result and sum_squares result
+
     def subtract(self,s1,s2):
 
         return s2 - s1
+
+def main():
+
+    obj = Sum_of_squares_diffrence()
+    s1 = obj.sum_squares()
+    s2 = obj.square_sum()
+
+    obj.subtract(s2, s1)
+
+if __name__ == "__main__":
+    main()
